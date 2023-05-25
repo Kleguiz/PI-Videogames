@@ -1,0 +1,80 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #44496b;
+  border-radius: 12px;
+  box-shadow: 10px 10px 5px 0px rgba(53, 38, 66, 0.75);
+  padding: 15px;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.containerPlatforms {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.containerGenres {
+  display: flex;
+  margin-top: 20px;
+}
+
+.platform,
+.genre {
+  margin-bottom: 5px;
+  background-color: #707499;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.released,
+.rating {
+  font-weight: bold;
+}

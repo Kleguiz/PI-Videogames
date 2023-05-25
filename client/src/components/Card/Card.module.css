@@ -1,0 +1,68 @@
+.card {
+  background-color: #707499;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(53, 38, 66, 0.75);
+  padding: 20px;
+  margin: 20px;
+  width: 25vw;
+  height: 40vh;
+  transition: all 0.2s ease-in-out;
+}
+
+p {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.neomorphism {
+  transition: box-shadow 0.3s ease;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.containerImage {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  max-height: 250px;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.containerGenre {
+  display: flex;
+  gap: 5px;
+  margin: auto;
+  justify-content: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.genre {
+  margin-bottom: 5px;
+  background-color: #44496b;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.card:hover {
+  background-color: #44496b;
+  transform: scale(1.1);
+  box-shadow: none;
+}
+
+.card:hover .genre {
+  background-color: #707499;
+}

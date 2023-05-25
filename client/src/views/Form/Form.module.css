@@ -1,0 +1,97 @@
+/* Estilos generales del formulario */
+.neomorphismForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px; /* Ajusta el ancho según tus necesidades */
+  padding: 20px;
+  background-color: #44496b;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(53, 38, 66, 0.75);
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos del grupo de cada campo */
+.neomorphismGroup {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos de la etiqueta */
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Estilos del campo de entrada de texto */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  color: #000000;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+}
+
+/* Estilos del mensaje de error */
+.errorMessage {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Estilos de los tags seleccionados */
+.neomorphismTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.neomorphismTags span {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+    -5px -5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.neomorphismTags button {
+  background-color: transparent;
+  border: none;
+  color: #ff0000;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.neomorphismTags button:focus {
+  outline: none;
+}
+
+/* Estilos del botón de enviar */
+.neomorphismButton {
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+    -5px -5px 10px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000000;
+}

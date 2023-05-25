@@ -1,0 +1,67 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(53, 38, 66, 0.75);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+}
+
+.neomorphism {
+  background-color: #f2f2f2;
+  box-shadow: 10px 10px 5px 0px rgba(53, 38, 66, 0.75);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #555a7d;
+}
+
+.navLink {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #666;
+}
+
+.Search {
+  display: flex;
+  align-items: center;
+}
+
+.Search input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.Search button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Search button:hover {
+  background-color: #666;
+}
